@@ -1,0 +1,6 @@
+FROM alamalinux:9
+RUN dnf install nginx -y
+#To create a user and switch to that user
+RUN useradd  roboshop
+USER roboshop
+CMD [ sleep, "infinity" ]
