@@ -5,3 +5,4 @@ RUN useradd  roboshop
 
 USER roboshop
 CMD ["sleep", "100"]
+CMD ["nginx", "-g", "daemon off;"]
