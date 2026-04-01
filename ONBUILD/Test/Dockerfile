@@ -1,1 +1,2 @@
-FROM nginx:1.0.0
+#This is our image
+ FROM nginx:1.0.0
