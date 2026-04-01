@@ -4,4 +4,4 @@ RUN dnf install nginx -y
 RUN useradd  roboshop
 
 USER roboshop
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["sleep", "100"]
